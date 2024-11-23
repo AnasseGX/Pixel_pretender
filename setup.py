@@ -9,7 +9,7 @@ except FileNotFoundError:
 
 setup(
     name="pixel_pretender",
-    version="1.0.0",
+    version="1.0.1",
     author="Anasse Gassab",
     author_email="anasse.gsb@gmail.com",
     description="Render pixelated text in the console using customizable symbols and colors.",

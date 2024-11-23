@@ -22,10 +22,10 @@
 
 ## Installation
 
-- You can install `pixel_pretender` via **pip**:
+- To install the latest version of `pixel_pretender`, run:
 
 ```bash
-pip install pixel_pretender
+pip install pixel-pretender
 ```
 
 ## Usage
@@ -53,14 +53,7 @@ pixels = pxp.digitise(text, symbol='█')
 # Display the pixelated text.
 pxp.display_pixels(pixels)
 ```
-- - ***result :***
-```
- █   █  █ █ █  █      █      █ █ █         █   █  █ █ █  █ █ █  █      █ █   
- █   █  █      █      █      █   █         █   █  █   █  █   █  █      █   █ 
- █ █ █  █ █    █      █      █   █         █   █  █   █  █ █ █  █      █   █ 
- █   █  █      █      █      █   █         █ █ █  █   █  █ █    █      █   █ 
- █   █  █ █ █  █ █ █  █ █ █  █ █ █         █   █  █ █ █  █   █  █ █ █  █ █     
-```
+
 ![Example Output](https://raw.githubusercontent.com/AnasseGX/Pixel_pretender/92335f57a2a4d14473159a71421f93b9102ec665/Docs/digitise_output.png)
 
 - - Use the `pxp.digitise()` function with the `negative_image=True` option to invert the image, swapping whitespace with the symbol.
@@ -75,16 +68,7 @@ pixels = pxp.digitise(text, symbol='█', negative_image=True)
 # Display the negative image.
 pxp.display_pixels(pixels)
 ```
-- - ***result :***
-```
-█████████████████████████████████████████████████████████████████████████████
-█ ███ ██ █ █ ██ ██████ ██████ █ █ █████████ ███ ██ █ █ ██ █ █ ██ ██████ █ ███
-█ ███ ██ ██████ ██████ ██████ ███ █████████ ███ ██ ███ ██ ███ ██ ██████ ███ █
-█ █ █ ██ █ ████ ██████ ██████ ███ █████████ ███ ██ ███ ██ █ █ ██ ██████ ███ █
-█ ███ ██ ██████ ██████ ██████ ███ █████████ █ █ ██ ███ ██ █ ████ ██████ ███ █
-█ ███ ██ █ █ ██ █ █ ██ █ █ ██ █ █ █████████ ███ ██ █ █ ██ ███ ██ █ █ ██ █ ███
-█████████████████████████████████████████████████████████████████████████████
-```
+
 **Pixelated text output with** `negative_image=True`
 
 ![Example Output](https://raw.githubusercontent.com/AnasseGX/Pixel_pretender/92335f57a2a4d14473159a71421f93b9102ec665/Docs/digitise_negative_True.png)
